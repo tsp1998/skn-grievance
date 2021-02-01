@@ -1,0 +1,83 @@
+body{
+	font-family: serif;
+}
+header{
+	color: white;
+	background: #19195a;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+.small{
+	font-size: 25px;
+}
+header2{
+	color: white;
+	background: #19195a;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+form{
+	font-family: serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size:30px;
+}
+.field{
+	color:red;
+	font-size: 100px;
+}
+.output{
+	margin-top: -150px;
+	color: white;
+/*	text-align: center;
+*/	font-weight: bold;
+	font-size:15px;
+}
+.submit{
+	font-size:20px;
+	background: #19195a;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+}
+input{
+	font-family: serif;
+/*	background: #b4e69e;;
+*/	font-size: 20px;
+	border-radius: 5px; 
+	color: black;
+}
+.Labels{
+	text-align: center;
+}
+.Name_Label{
+	text-align: center;
+}
+select{
+	font-family: serif;
+/*	background: #b4e69e;;
+*/	font-size: 20px;
+	border-radius: 5px; 	
+	color: black;
+}
+textarea{
+	font-family: serif;
+/*	background: #b4e69e;;
+*/	font-size: 20px;
+	border-radius: 5px; 	
+	color: black;
+}
+.record{
+	color: white;
+}
+
+.record_table{
+	margin-top: -50px;
+	text-align: center;
+}
