@@ -1,109 +1,107 @@
-<?php 
+<?php
 switch ($Department) {
 	case '1':
-$Department='CSE';	
-break;
+		$Department = 'CSE';
+		break;
 	case '2':
-$Department='Mechanical';	
-break;
+		$Department = 'Mechanical';
+		break;
 	case '3':
-$Department='EnTC';	
-break;
+		$Department = 'EnTC';
+		break;
 	case '4':
-$Department='Civil';	
-break;
+		$Department = 'Civil';
+		break;
 	case '5':
-$Department='Electrical';	
-break;
-case '6':
-$Department='First Year';	
-break;
-	
+		$Department = 'Electrical';
+		break;
+	case '6':
+		$Department = 'First Year';
+		break;
+
 	default:
-$Department='';	
+		$Department = '';
 		break;
 }
 
 switch ($Position) {
 	case '1':
-$Position='Student';	
-break;
+		$Position = 'Student';
+		break;
 	case '2':
-$Position='Teacher';	
-break;
+		$Position = 'Teacher';
+		break;
 	case '3':
-$Position='Other Stakeholder';	
-break;
+		$Position = 'Other Stakeholder';
+		break;
 	default:
-$Position='';	
+		$Position = '';
 		break;
 }
 
 
 switch ($Year) {
 	case '1':
-$Year='First Year';	
-break;
+		$Year = 'First Year';
+		break;
 	case '2':
-$Year='Second Year';	
-break;
+		$Year = 'Second Year';
+		break;
 	case '3':
-$Year='Third Year';	
-break;
+		$Year = 'Third Year';
+		break;
 	case '4':
-$Year='Final Year';	
-break;
+		$Year = 'Final Year';
+		break;
 	default:
-$Year='';	
+		$Year = '';
 		break;
 }
 
 switch ($Division) {
 	case '1':
-$Division='A';	
-break;
+		$Division = 'A';
+		break;
 	case '2':
-$Division='B';	
-break;
+		$Division = 'B';
+		break;
 	case '3':
-$Division='C';	
-break;
+		$Division = 'C';
+		break;
 	case '4':
-$Division='D';	
-break;
-case '5':
-$Division='E';	
-break;
-case '6':
-$Division='-';	
-break;
+		$Division = 'D';
+		break;
+	case '5':
+		$Division = 'E';
+		break;
+	case '6':
+		$Division = '-';
+		break;
 	default:
-$Division='';	
+		$Division = '';
 		break;
 }
 
 switch ($Concern) {
 	case '1':
-$Concern='Ragging';	
-break;
+		$Concern = 'Ragging';
+		break;
 	case '2':
-$Concern='Sexual Harassment';	
-break;
+		$Concern = 'Sexual Harassment';
+		break;
 	case '3':
-$Concern='Campus Related';	
-break;
+		$Concern = 'Campus Related';
+		break;
 	case '4':
-$Concern='Faculty Related';	
-break;
-case '5':
-$Concern='Library Related';	
-break;
-case '6':
-$Concern='Other';	
-break;
+		$Concern = 'Faculty Related';
+		break;
+	case '5':
+		$Concern = 'Library Related';
+		break;
+	case '6':
+		$Concern = 'Other';
+		break;
 	default:
-$Concern='';	
+		$Concern = '';
 		break;
 }
-
-?>
